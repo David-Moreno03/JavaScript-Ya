@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do</title>
+</head>
+<body>
+    <script>
+        let usuario = admin;
+        let contrasena = 1234;
+        let user;
+        let pass;
+        do {
+                user = prompt("Ingrese el usuario:");
+                pass = prompt("Ingrese la contraseña:");
+                if (user !== usuario || pass !== contrasena) {
+                    alert("Usuario o contraseña incorrectos. Inténtelo de nuevo");
+                } 
+            } while (user !== usuario || pass !== contrasena);
+            alert("ACCESO CONCEDIDO");
+    </script>
+</body>
+</html>

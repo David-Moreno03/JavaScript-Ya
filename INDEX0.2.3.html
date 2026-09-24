@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While</title>
+</head>
+<body>
+    <script>
+        let i = parseInt(prompt('Ingrese el valor inicial:'));
+        let f = parseInt(prompt('Ingrese el valor final:'));
+        let p = parseInt(prompt('Ingrese el paso:'));
+        if (i <= f ) {
+            while (i <= f) 
+            document.write(i + "," );
+            i = i + p;
+        }
+        else {
+            while (i >= f) 
+            document.write(i + "," );
+            i = i - p;
+        }
+            
+    </script>
+</body>
+</html>
